@@ -1,3 +1,2 @@
-![Website logo](/images/logo.png)
-
+[![Website logo](/images/logo.png)](https://theorenloo.github.io/)
 
