@@ -1,6 +1,6 @@
 Welcome to GitHub Pages
 
-![Website logo](/theorenloo.github.io/assets/home.png)
+![Website logo](/theorenloo.github.io/docs/assets/home.png)
 
 
 You can use the [editor on GitHub](https://github.com/theorenloo/theorenloo.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
