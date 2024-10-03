@@ -51,7 +51,16 @@
   				color: white;
 			}		
 			
-			
+			/* Image size settings */
+			.profile-pic {
+				max-width: 20%; /* 20% width for larger screens */
+			}
+
+			@media only screen and (max-width: 600px) {
+				.profile-pic {
+					max-width: 50%; /* 50% width on mobile devices */
+				}
+			}
 		</style>
 	</head>
 	
@@ -61,7 +70,7 @@
 			<img src="images/logo.png" alt="hi" class="inline" style="max-width: 10%;"/>
 		</a>
 		
-            	<p><img src="images/me.jpg" style="max-width: 20%;"></p>
+            	<p><img src="images/me.jpg" class="profile-pic" alt="Theo Loo"></p>
 
 		<p class="bio"><span style="color:#D62A2A;"><strong>Theo Loo</strong></span> is a full-stack data scientist with 7+ years of experience spanning healthcare startups and the public sector. He received his B.S. in Microbiology from UW Madison and M.S. in Public Health from UC Berkeley.</strong>
 		
@@ -76,14 +85,6 @@
 		<a href="https://scholar.google.com/citations?user=vbhDB9UAAAAJ&hl=en" class="fa fa-google"></a>
 		<a href="https://github.com/theorenloo" class="fa fa-github"></a>	
 		</p>
-
-		<style>
-        		@media only screen and (max-width: 600px) {
-            			.profile-pic {
-                			max-width: 50%; /* Set the image to 50% of the screen width on mobile devices */
-           			}
-        		}
-    		</style>
 		
 	</body>
 </html>
